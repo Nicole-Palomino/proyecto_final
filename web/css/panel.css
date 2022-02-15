@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fs-4{
+    font-family: tahoma;
+    color: #1a5683;
+    text-decoration: none;
+}
+.carousel .carousel-inner .carousel-item .images{
+    height: 800px;
+}
+@media screen and (max-width: 992px){
+    .carousel .carousel-inner .carousel-item .images{
+        height: 615px;
+    }
+}
+@media screen and (max-width: 768px){
+    .carousel .carousel-inner .carousel-item .images{
+        height: 480px;
+    }
+}
+@media screen and (max-width: 576px){
+    .carousel .carousel-inner .carousel-item .images{
+        height: 370px;
+    }
+}
+

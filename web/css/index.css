@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/huaca.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fondo{
+    background-color: rgba(1,1,1,0.4);
+}
+.text-light{
+    font-family: tahoma;
+}
+.boton{
+    background: #ee583e;
+    border-radius: 20px;
+}
+.boton:hover{
+    cursor: pointer;
+    background: rgba(238,88,62,0.8);
+}
+.fs-4{
+    font-family: tahoma;
+    color: #1a5683;
+    text-decoration: none;
+}
